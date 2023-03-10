@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tło"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carlogosapp.Settings">
+
+    <ImageButton
+        android:id="@+id/Cofnij"
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rounded_backgroundv2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.011"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.005"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+    <Switch
+        android:id="@+id/DarkMode"
+        android:layout_width="381dp"
+        android:layout_height="70dp"
+        android:background="@drawable/rounded_background"
+        android:clipToOutline="true"
+        android:clipToPadding="false"
+        android:text="@string/Dark_mode"
+        android:textSize="20sp"
+        android:paddingStart="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.234" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
